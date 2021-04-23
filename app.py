@@ -180,29 +180,6 @@ def plotColorBar(colorInformation):
     return color_bar
 
 
-"""## Section Two.4.2 : Putting it All together: Pretty Print
-
-The function makes print out the color information in a readable manner
-"""
-
-
-def prety_print_data(color_info):
-    for x in color_info:
-        print(pprint.pformat(x))
-        print()
-
-
-"""
-The below lines of code, is the implementation of the above defined function.
-"""
-
-'''
-Skin Image Primary : https://raw.githubusercontent.com/octalpixel/Skin-Extraction-from-Image-and-Finding-Dominant-Color/master/82764696-open-palm-hand-gesture-of-male-hand_image_from_123rf.com.jpg
-Skin Image One     : https://raw.githubusercontent.com/octalpixel/Skin-Extraction-from-Image-and-Finding-Dominant-Color/master/skin.jpg
-Skin Image Two     : https://raw.githubusercontent.com/octalpixel/Skin-Extraction-from-Image-and-Finding-Dominant-Color/master/skin_2.jpg
-Skin Image Three   : https://raw.githubusercontent.com/octalpixel/Skin-Extraction-from-Image-and-Finding-Dominant-Color/master/Human-Hands-Front-Back-Image-From-Wikipedia.jpg
-
-'''
 
 
 # Get Image from URL. If you want to upload an image file and use that comment the below code and replace with  image=cv2.imread("FILE_NAME")
